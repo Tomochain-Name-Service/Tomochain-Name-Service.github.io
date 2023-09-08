@@ -1,190 +1,155 @@
-<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
 <!DOCTYPE html>
-<html lang="en-US">
-    <!--<![endif]-->
+<html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <title>
-            TomoChain Name Service - First naming service of TomoChain
-        </title><!-- Behavioral Meta Data -->
-        <meta content="yes" name="apple-mobile-web-app-capable">
-        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"><!-- Core Meta Data -->
-        <meta content="TomoChainNs" name="author">
-        <meta content="First naming service of TomoChain" name="description">
-        <meta content="First naming service of TomoChain" name="keywords"><!-- Open Graph Meta Data -->
-        <meta content="First naming service of TomoChain!">
-        <meta content="website">
-        <meta content="index.html"><!-- Twitter Card Meta Data -->
-        <meta content="summary" name="twitter:card">
-        <meta content="@TomoChainNs" name="twitter:site">
-        <meta content="@TomoChainNs" name="twitter:creator">
-        <meta content="TomoChain Name Service" name="twitter:title">
-        <meta content="TomoChain Name Service - First naming service of TomoChain" name="twitter:description">
+<head>
+    <meta charset="utf-8" />
+    <title>Tomo Name Service</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tomo Chain Name Service" />
+    <meta name="keywords" content="TomoChain, Tomo, TomoNS, TNS, TomoNameService" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" />
 
-        <link href="favicon.png" rel="shortcut icon" type="image/png">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
 
-        <!--[if lt IE 9]>
-            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-        
-        <!-- CSS -->
-        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,900' rel='stylesheet' type='text/css'><!-- Styles -->
-        <link href="css/loader.css" rel="stylesheet" type="text/css">
-        <link href="css/normalize.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link href="css/style.css" rel="stylesheet" type="text/css">
-        <!--[if lt IE 9]>
-            <link rel="stylesheet" type="text/css" href="css/ie.css" />
-        <![endif]-->
-        <!-- Javascript -->
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-TLE34VZQ49"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+    <!-- css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
 
-        gtag('config', 'G-TLE34VZQ49');
-        </script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
 
-        <script src="js/jquery.js"></script>
-    </head>
-    <body>
-        <div class="preloader">
-            <div class="loading">
-                <h2>
-                    Loading...
-                </h2>
-                <span class="progress"></span>
+<body style="background: url(images/overlay.png) bottom;">
+    <div class="preloader">
+        <div class="status">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+    </div>
+
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <a href=""><img src="images/logo-dark.png" alt="" height="26" /></a>
+
+                    <div class="float-end d-none d-md-inline-block">
+                        <a href="#" class="btn btn-primary btn-sm text-uppercase">Go to app</a>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
 
-        <div class="wrapper">
-            <ul class="scene unselectable" data-friction-x="0.1" data-friction-y="0.1" data-scalar-x="25" data-scalar-y="15" id="scene">
-                <li class="layer" data-depth="0.00">
-                </li>
-                <!-- BG -->
+    <div class="contain-box">
+        <div class="home-center">
+            <div class="home-desc-center">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-8">
+                            <div class="mt-lg-0 mt-4 text-center">
+                                <h1 class="home-title display-4 fw-bold text-uppercase">
+                                    No more <br/>
+                                    <a href="" class="typewrite" data-period="300" data-type='[ "losing money", "ugly address", "mistake" ]'>
+                                        <span class="wrap"></span>
+                                    </a>
+                                </h1>
 
-                <li class="layer" data-depth="0.10">
-                    <div class="background">
-                    </div>
-                </li>
+                                <p class="text-muted f-18 mt-3 mb-1">Decentralised naming for wallets & more.
+                                </p>
 
-                <!-- Hero -->
-
-                <li class="layer" data-depth="0.20">
-                    <div class="title">
-                        <h2>
-                            TomoChain Name Service
-                        </h2>
-                        <span class="line"></span>
-                    </div>
-                </li>
-
-                <li class="layer" data-depth="0.25">
-                    <div class="sphere">
-                        <img alt="sphere" src="images/tomons-logo-inverted.png">
-                    </div>
-                </li>
-
-                <li class="layer" data-depth="0.30">
-                    <!-- <div class="hero">
-                        <h1>
-                            Coming soon!
-                        </h1>
-
-                    </div> -->
-                    <div class="hero">
-                        <h1 id="countdown">
-                            
-                        </h1>
-
-                        <p class="sub-title">
-                            
-                        </p>
-                    </div>
-                </li>
-                <!-- Flakes -->
-
-                <li class="layer" data-depth="0.40">
-                    <div class="depth-1 flake1">
-                        <img alt="flake" src="images/flakes/depth1/flakes1.png">
+                                <div class="mt-5">
+                                    <div class="search-form">
+                                        <form action="#">
+                                            <input type="text" placeholder="Enter your name" />
+                                            <button type="submit" class="btn btn-primary">Check Availability</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="depth-1 flake2">
-                        <img alt="flake" src="images/flakes/depth1/flakes2.png">
+                    <div class="row mt-5 pt-3">
+                        <div class="col-lg-4">
+                            <div class="info-box mt-4">
+                                <div class="d-flex">
+                                    <i class="mdi mdi-earth h4 text-primary flex-shrink-0"></i>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h5 class="f-18">Your web3 username</h5>
+                                        <p class="text-muted">No more sandboxed usernames. Own your username, store an avatar and other profile data, and use it across services.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="info-box mt-4">
+                                <div class="d-flex">
+                                    <i class="mdi mdi-wallet h4 text-primary flex-shrink-0"></i>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h5 class="f-18">One Name For All of Your Addresses</h5>
+                                        <p class="text-muted">No more copying and pasting long addresses.
+                                            Use your ENS name to store all of your addresses and receive any cryptocurrency, token.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="info-box mt-4">
+                                <div class="d-flex">
+                                    <i class="mdi mdi-file-document h4 text-primary flex-shrink-0"></i>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h5 class="f-18">Easy to use</h5>
+                                        <p class="text-muted">your_name.tomo</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="depth-1 flake3">
-                        <img alt="flake" src="images/flakes/depth1/flakes3.png">
-                    </div>
-
-                    <div class="depth-1 flake4">
-                        <img alt="flake" src="images/flakes/depth1/flakes4.png">
-                    </div>
-                </li>
-
-                <li class="layer" data-depth="0.50">
-                    <div class="depth-2 flake1">
-                        <img alt="flake" src="images/flakes/depth2/flakes1.png">
-                    </div>
-
-                    <div class="depth-2 flake2">
-                        <img alt="flake" src="images/flakes/depth2/flakes2.png">
-                    </div>
-                </li>
-
-                <li class="layer" data-depth="0.60">
-                    <div class="depth-3 flake1">
-                        <img alt="flake" src="images/flakes/depth3/flakes1.png">
-                    </div>
-
-                    <div class="depth-3 flake2">
-                        <img alt="flake" src="images/flakes/depth3/flakes2.png">
-                    </div>
-
-                    <div class="depth-3 flake3">
-                        <img alt="flake" src="images/flakes/depth3/flakes3.png">
-                    </div>
-
-                    <div class="depth-3 flake4">
-                        <img alt="flake" src="images/flakes/depth3/flakes4.png">
-                    </div>
-                </li>
-
-                <li class="layer" data-depth="0.80">
-                    <div class="depth-4">
-                        <img alt="flake" src="images/flakes/depth4/flakes.png">
-                    </div>
-                </li>
-
-                <li class="layer" data-depth="1.00">
-                    <div class="depth-5">
-                        <img alt="flake" src="images/flakes/depth5/flakes.png">
-                    </div>
-                </li>
-                <!-- Contact -->
-
-                <li class="layer" data-depth="0.20" >
-                    <div class="contact">
-                        <ul class="icons">
-
-                            <li>
-                                <a class="twitter" href="https://twitter.com/TomoChainNs" target="_blank"><i class="fa fa-twitter"></i></a>
-                            </li>
-
-                        </ul>
-                    </div>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
+    </div>
 
-        <!-- Javascript -->
-        <script src="js/plugins.js"></script> 
-        <script src="js/jquery.countdown.min.js"></script> 
-        <script src="js/main.js"></script>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="float-start pull-none">
+                        <p class="text-uppercase mb-2 fw-semibold f-14">Let's Connect</p>
+                        <div class="social-icon">
+                            <ul class="list-inline mb-0">
+                            <ul class="list-inline mb-0">
+                                <li class="list-inline-item">
+                                    <a href="" class="icon bg-facebook"><i class="mdi mdi-facebook"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="" class="icon bg-twitter"><i class="mdi mdi-twitter"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
 
-    </body>
+                    <div class="float-end pull-none">
+                        <p class="mb-0 mt-4">© <script>document.write(new Date().getFullYear())</script> Tomo Name Service</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- Main Js -->
+    <script src="js/app.js"></script>
+    <script src="js/typewriter.js"></script>
+</body>
+
 </html>
