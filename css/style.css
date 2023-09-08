@@ -253,7 +253,6 @@ hr {
 
 .custom-checkbox-primary .custom-control-input:checked ~ .custom-control-label:before, .custom-radio-primary .custom-control-input:checked ~ .custom-control-label:before {
   background-color: #3850d5;
-  border-color: #3850d5;
 }
 
 .custom-checkbox-success .custom-control-input:checked ~ .custom-control-label:before, .custom-radio-success .custom-control-input:checked ~ .custom-control-label:before {
@@ -320,15 +319,11 @@ hr {
 }
 
 .text-primary {
-  color: #3850d5 !important;
-}
-
-.border-primary {
-  color: #3850d5 !important;
+  color: #0d6efd !important;
 }
 
 .icon-dual-primary {
-  color: #3850d5;
+  color: #0d6efd;
   fill: rgba(56, 80, 213, 0.2);
 }
 
@@ -342,24 +337,20 @@ hr {
 }
 
 .btn-primary {
-  background: #3850d5 !important;
-  border-color: #3850d5 !important;
+  background: #0d6efd !important;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.focus, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary .open > .dropdown-toggle.btn-primary {
-  background: #2b44cd;
-  border-color: #2b44cd;
+  background: #0d6efd;
 }
 
 .btn-outline-primary {
-  color: #3850d5;
-  border-color: #3850d5;
+  color: #0d6efd;
 }
 .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.focus, .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .btn-outline-primary .open > .dropdown-toggle.btn-primary {
   color: #ffffff;
   background: #3850d5;
-  border-color: #3850d5;
 }
 
 .bg-success {
@@ -1053,7 +1044,7 @@ hr {
 .custom-form .form-control:focus {
   outline: 0;
   box-shadow: none;
-  border: 1px solid #3850d5;
+  border: 1px solid #1A96FE;
 }
 
 .custom-form textarea.form-control {
@@ -1063,7 +1054,7 @@ hr {
 .contact-icon i {
   width: 46px;
   height: 46px;
-  background: #3850d5;
+  background: #1A96FE;
   color: #ffffff;
   font-size: 24px;
   border-radius: 50%;
@@ -1100,22 +1091,6 @@ hr {
 
 .bg-twitter {
   background: #52abef;
-}
-
-.bg-google {
-  background: #de4d3b;
-}
-
-.bg-linkedin {
-  background: #0d79b7;
-}
-
-.bg-dribbble {
-  background: #ef4e8c;
-}
-
-.bg-wordpress {
-  background: #2e9cca;
 }
 
 @media (min-width: 200px) and (max-width: 768px) {
